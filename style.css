@@ -1,0 +1,45 @@
+#img-container{
+     width:100%;
+     height:200px;
+     box-sizing:border-box;
+     text-align:center;
+     margin-top:40px;
+     padding-left:0px;
+}
+.image{
+    display:inline-block;  
+    width:20%;
+    height:180px;
+    overflow:hidden;
+    margin-left:10px;
+}
+.image:hover{
+    cursor:pointer;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#img{
+      display:inline-block;
+      width:60%;
+      height:400px;
+}
+#close
+{
+      position:absolute;
+      top:0;
+      right:0;
+      cursor:pointer;
+}
+#Modal-content{
+   display:none;
+   z-index:1;
+   padding-top:100px;
+   width:100%;
+   height:800px;
+   left:0;
+   right:0;
+   top:0;
+   text-align:center;
+   position:fixed;
+   background-color: rgb(15, 15, 15);
+}
+    
